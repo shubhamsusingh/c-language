@@ -209,23 +209,55 @@ void main()
     
 // }
 
-for ( i = 0; i < 5; i++)
-{
-    for ( i = 0; i < 5; i++)
-    {
-       if (i==1||i==5||j==1||j==5)
-       {
-       printf("*");
-       }else{
-        printf(" ");
-       }
+// Question :-
+// *****
+// *   *
+// *   *
+// *   *
+// *****
+// for ( i = 0; i < 5; i++)
+// {
+//     for ( i = 0; i < 5; i++)
+//     {
+//        if (i==1||i==5||j==1||j==5)
+//        {
+//        printf("*");
+//        }else{
+//         printf(" ");
+//        }
        
+//     }
+    
+//     printf("\n");
+    
+    
+// }
+
+// Question :-
+//    *
+//   * *
+//  *   *
+
+for ( i = 0; i <5; i++)
+{
+    for ( j = 5; j > i; j--)
+    {
+       printf(" ");
+    }
+   for ( j = 0; j < 5; j++)
+   {
+    if (i==1||i==5||j==1||i==j)
+    {
+        printf("*");
+    }else{
+        printf(" ");
     }
     
-    printf("\n");
-    
-    
+   }
+   printf("\n");
+   
 }
+
 
 
     
